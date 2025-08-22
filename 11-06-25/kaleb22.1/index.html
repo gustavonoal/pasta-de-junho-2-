@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>Galeria com Filtros</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <h1>🖼️ Galeria do Gojo com Filtros CSS</h1>
+    <div class="botoes">
+        <button onclick="aplicarFiltro('none')">Original</button>
+        <button onclick="aplicarFiltro('grayscale(100%)')">Preto e Branco</button>
+        <button onclick="aplicarFiltro('sepia(100%)')">Sépia</button>
+        <button onclick="aplicarFiltro('blur(3px)')">Desfoque</button>
+    </div>
+    <div class="galeria" id="galeria">
+        <img src="img/gojo1.png" alt="Foto 1">
+        <img src="img/gojo2.jpg" alt="Foto 2">
+        <img src="img/gojo3.jpg" alt="Foto 3">
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
